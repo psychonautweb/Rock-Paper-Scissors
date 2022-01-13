@@ -4,10 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
     <script src="js/game.js"></script>
     <title>Rock Paper Scissors</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Rockemon, Leafmon, Scissorsmon</h1>
+        <p>Pick your Pokemon in this game of skills</p>
+        <p>Game ends when you or Artificial Intelligence scores 5 wins. Don't blame it on the bad luck.</p>
+    </header>
+    <main>
+        <section id="selected-poke">
+            <div>
+                <h1 id="player-one">?</h1>
+                <div class="player-info">
+                    <p>Player</p><span id="player1-win-count">0</span>
+                </div>
+            </div>
+            <div>
+                <h1 id="player-two">?</h1>
+                <div class="player-info">
+                    <p>Artificial Intelligence</p><span id="player2-win-count">0</span>
+                </div>
+            </div>
+        </section>
+        <section id="poke-choices">
+            <img src="img/rockmon.webp" alt="rock">
+            <img src="img/leafmon.webp" alt="paper">
+            <img src="img/scizormon.webp" alt="scissors">
+        </section>
+        <section></section>
+    </main>
 </body>
 </html>

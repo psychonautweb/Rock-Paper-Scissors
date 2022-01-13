@@ -30,16 +30,16 @@ function playSingleRound(playerSelection, computerSelection) {   // this functio
 
 // function that plays 5 round game that keeps score and reports winner or loser at the end
 
-function game() {
-    for (let i = 0; i < 5; i++) {
-    const playerInputSelection = prompt('Please make your choice between rock, paper and scissors', '');
-    const playerSelection = playerInputSelection.toLowerCase();    
-    const computerSelection = computerPlay(); 
-    playSingleRound(playerSelection, computerSelection);
-    alert('You selected: ' + playerSelection);
-    alert('Computer selected: ' + computerSelection);
-    alert(playSingleRound(playerSelection, computerSelection));
-    }
-}
+// function game() {
+//     for (let i = 0; i < 5; i++) {
+//     const playerInputSelection = prompt('Please make your choice between rock, paper and scissors', '');
+//     const playerSelection = playerInputSelection.toLowerCase();    
+//     const computerSelection = computerPlay(); 
+//     playSingleRound(playerSelection, computerSelection);
+//     alert('You selected: ' + playerSelection);
+//     alert('Computer selected: ' + computerSelection);
+//     alert(playSingleRound(playerSelection, computerSelection));
+//     }
+// }
 
-game();
+// game();
