@@ -32,6 +32,11 @@ div.player-info {
     gap: 1rem;
 }
 
+#round-winner-message {
+    font-size: 10rem;
+    font-weight: 700;
+}
+
 #poke-choices {
     display: flex;
     justify-content: center;
